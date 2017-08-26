@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8877D5D01F51275900B816BE /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8877D5CF1F51275900B816BE /* ProductCell.swift */; };
+		8877D5D21F51293800B816BE /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8877D5D11F51293800B816BE /* Products.swift */; };
 		88CA14D31F4D130C005BBAD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA14D21F4D130C005BBAD0 /* AppDelegate.swift */; };
 		88CA14D51F4D130C005BBAD0 /* CatergoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA14D41F4D130C005BBAD0 /* CatergoriesVC.swift */; };
 		88CA14D81F4D130C005BBAD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CA14D61F4D130C005BBAD0 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8877D5CF1F51275900B816BE /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		8877D5D11F51293800B816BE /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		88CA14CF1F4D130C005BBAD0 /* Code-Swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code-Swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CA14D21F4D130C005BBAD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CA14D41F4D130C005BBAD0 /* CatergoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatergoriesVC.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				88CA14E71F4FB9B5005BBAD0 /* CategoryCell.swift */,
+				8877D5CF1F51275900B816BE /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				88CA14E91F4FBDE0005BBAD0 /* Category.swift */,
+				8877D5D11F51293800B816BE /* Products.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,6 +185,8 @@
 				88CA14D51F4D130C005BBAD0 /* CatergoriesVC.swift in Sources */,
 				88CA14D31F4D130C005BBAD0 /* AppDelegate.swift in Sources */,
 				88CA14E81F4FB9B5005BBAD0 /* CategoryCell.swift in Sources */,
+				8877D5D21F51293800B816BE /* Products.swift in Sources */,
+				8877D5D01F51275900B816BE /* ProductCell.swift in Sources */,
 				88CA14EA1F4FBDE0005BBAD0 /* Category.swift in Sources */,
 				88CA14ED1F4FBFD1005BBAD0 /* DataService.swift in Sources */,
 			);
