@@ -18,4 +18,6 @@ struct Products {
         self.price = price
         self.imageName = imageName
     }
+    
+    
 }
